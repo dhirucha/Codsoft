@@ -82,30 +82,38 @@ img{
   width: 100vw;
   display: flex;
   align-items: center;
-  padding: 2.4rem;
+  padding: 4rem;
   height: 100vh;
+  background-image: url('./assets/wave-haikei\ \(1\).svg');
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 
 .header-section{
-  width: 50vw;
-  padding: 2.2rem;
-  
+  width: 45vw;
+  padding: 3rem;
 
 }
 
 .header h1{
-  font-size: 4rem;
+  font-size: 4.2rem;
   line-height: 5rem;
   padding-bottom: 1.5rem;
+  color: #70f3df;
+}
+
+.header span{
+  color: #dee4ee;
 }
 
 .subheading{
   width: 40vw;
 }
+
 .subheading p{
   font-size: 1.1rem;
-  color: #656363;
+  color: #c4c0c0;
 }
 
 .explore-btn{
@@ -121,18 +129,112 @@ img{
   cursor: pointer;
   transition: .3s all ease-in;
   margin-top: 1rem;
-  box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.4);
+  box-shadow: 2px 2px 5px 2px rgba(232, 230, 230, 0.4);
 
 }
 
 .explore-btn:hover{
-  box-shadow: 4px 4px 10px 2px rgba(0,0,0,0.4);
+  box-shadow: 4px 4px 10px 2px rgba(231, 228, 228, 0.262);
     transform: translateY(6px);
 
 }
 
-.more-info{
-  width: 100vw;
-  height: 35vh;
-  background-color: #ecead1;
-} 
+.about-us{
+  margin-top: 1.8rem;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  display: flex;
+  align-items: center;
+
+}
+
+.about-us-img{
+  width: 50vw;
+  
+}
+
+.about-us-desc{
+  max-width: 50vw;
+  padding-right: 3rem;
+  
+}
+
+.about-us-img img{
+  width: 30rem;
+}
+
+.about-us-desc h4{
+  color: #656363;
+  font-weight: 400;
+}
+
+.about-us-desc h1{
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+.about-us-desc p{
+  font-size: 1rem;
+}
+
+.about-us-desc button{
+  outline: none;
+  border: none;
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 5px 12px;
+  margin-top: 2vh;
+  background-color: #f4ed68;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
+  transition: .3s all ease-in;
+
+}
+
+.about-us-desc button:hover{
+  transform: translateY(6px);
+
+}
+
+.about-us-cards{
+  padding-left: 6rem;
+  padding-right: 6rem;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+
+span i{
+  font-size: 1.5rem;
+  
+}
+
+
+.card{
+  height: 30vh;
+  width: 17vw;
+
+}
+
+.card-head{
+  display: flex;
+  gap: .6vw;
+  align-items: center;
+}
+
+.card-head h4{
+  font-size: 1.3rem;
+}
+
+.card p{
+  color: #656363;
+}
+
+hr{
+  margin-left: 6rem;
+  margin-right: 6rem;
+
+}
