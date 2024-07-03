@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing.</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,12 +27,12 @@
     <nav>
       <div class="logo">Landing.</div>
       <div class="nav-links">
-        <div class="link"><a href="#">Home</a></div>
-        <div class="link"><a href="#">About</a></div>
-        <div class="link"><a href="#">Portfolio</a></div>
-        <div class="link"><a href="#">Client</a></div>
-        <div class="link"><a href="#">News</a></div>
-        <div class="link"><a href="#">contact</a></div>
+        <div class="link"><a href="#hero-section">Home</a></div>
+        <div class="link"><a href="#about-us">About</a></div>
+        <div class="link"><a href="#portfolio-header">Portfolio</a></div>
+        <div class="link"><a href="#clients-section">Client</a></div>
+        <div class="link"><a href="#news-section">News</a></div>
+        <div class="link"><a href="#contact-us-section">contact</a></div>
       </div>
       <button type="button" class="signup-btn">SignUp</button>
     </nav>
@@ -39,7 +40,7 @@
     <!-- hero section -->
     <div class="hero-section">
       <div class="header-section">
-        <div class="header">
+        <div class="header" data-aos="ease-in">
           <h1>
             We Are <span>Digital Creative</span> <br />
             Agency.
@@ -56,15 +57,15 @@
         </div>
         <button type="button" class="explore-btn">Explore</button>
       </div>
-      <div class="header-img">
+      <div class="header-img" data-aos="zoom-in-down">
         <img src="./assets/Developer activity-bro.svg" alt="" />
       </div>
     </div>
-    <div class="about-us">
-      <div class="about-us-img">
+    <div id="about-us">
+      <div class="about-us-img" data-aos="zoom-in-up">
         <img src="./assets/Website Creator-cuate.svg" alt="" />
       </div>
-      <div class="about-us-desc">
+      <div class="about-us-desc"data-aos="zoom-in-down">
         <h4>About Us</h4>
         <h1>
           Design & Develop Better <br />
@@ -82,7 +83,7 @@
     </div>
 
     <div class="about-us-cards">
-      <div class="card">
+      <div class="card" data-aos="zoom-in-up">
         <div class="card-head">
           <span><i class="ri-pen-nib-line"></i></span>
           <h4>Design</h4>
@@ -93,7 +94,7 @@
         </p>
       </div>
 
-      <div class="card">
+      <div class="card" data-aos="zoom-in-down">
         <div class="card-head">
           <span><i class="ri-mac-line"></i></span>
           <h4>Development</h4>
@@ -104,7 +105,7 @@
         </p>
       </div>
 
-      <div class="card">
+      <div class="card" data-aos="zoom-in-right">
         <div class="card-head">
           <span><i class="ri-checkbox-line"></i></span>
           <h4>Testing Q&A</h4>
@@ -116,7 +117,7 @@
       </div>
     </div>
     <hr />
-    <div class="portfolio-header">
+    <div id="portfolio-header">
       <div class="left-section">
         <h4>Portfolio</h4>
         <h1>Our Case Studies</h1>
@@ -134,18 +135,18 @@
       </div>
     </div>
     <div class="portfolio-section">
-      <img src="./assets/portfolio-1.jpg" alt="" />
-      <img src="./assets/portfolio-2.jpg" alt="" />
-      <img src="./assets/portfolio-3.jpg" alt="" />
+      <img src="./assets/portfolio-1.jpg" alt="" data-aos="zoom-in-down"/>
+      <img src="./assets/portfolio-2.jpg" alt="" data-aos="zoom-in-down" />
+      <img src="./assets/portfolio-3.jpg" alt="" data-aos="zoom-in-down" />
     </div>
 
-    <div class="clients-section">
+    <div id="clients-section">
       <div class="client-header">
         <h4>Testimony</h4>
         <h1>What Our Client Says</h1>
       </div>
       <div class="client-review-section">
-        <div class="client-card">
+        <div class="client-card" data-aos="zoom-in-up">
           <div class="client-img">
             <img src="./assets/profile-pic-1.jpg" alt="" />
           </div>
@@ -167,7 +168,7 @@
           </div>
         </div>
 
-        <div class="client-card">
+        <div class="client-card" data-aos="zoom-in-up">
           <div class="client-img">
             <img src="./assets/profile-pic-2.jpg" alt="" />
           </div>
@@ -189,7 +190,7 @@
           </div>
         </div>
 
-        <div class="client-card">
+        <div class="client-card" data-aos="zoom-in-up">
           <div class="client-img">
             <img src="./assets/profile-pic-3.jpg" alt="" />
           </div>
@@ -211,7 +212,7 @@
           </div>
         </div>
 
-        <div class="client-card">
+        <div class="client-card"  data-aos="zoom-in-up">
           <div class="client-img">
             <img src="./assets/profile-pic-4.jpg" alt="" />
           </div>
@@ -234,5 +235,118 @@
         </div>
       </div>
     </div>
+
+    <!-- news section -->
+    <div class="news-header">
+      <h4>News</h4>
+      <h1>Read Our News</h1>
+    </div>
+
+    <div id="news-section">
+      <div class="left-section" data-aos="zoom-in-down">
+        <img src="./assets/news-1.jpg" alt="" />
+        <h4>The Art of User-Centered Web Design</h4>
+        <p>
+          Explore the principles and techniques behind creating user-centered
+          <br />web designes that prioritize that needs and preferences of your
+          target audience.
+        </p>
+
+        <div class="view-all-btn">
+          <button type="button">View all</button>
+          <i class="ri-arrow-right-line"></i>
+        </div>
+      </div>
+      <div class="right-section">
+        <div class="top-section" data-aos="zoom-in-up">
+          <img src="./assets/news-2.jpg" alt="" />
+          <div class="right-section-top-desc">
+            <h4>Mastering the Mobile-First Approach</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+              exercitationem.
+            </p>
+
+            <div class="view-all-btn">
+              <button type="button">View all</button>
+              <i class="ri-arrow-right-line"></i>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-section"  data-aos="zoom-in-right">
+          <img src="./assets/news-3.jpg" alt="" />
+          <div class="right-section-bottom-desc">
+            <h4>Digital Marketing Demystified</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+              exercitationem.
+            </p>
+
+            <div class="view-all-btn">
+              <button type="button">View all</button>
+              <i class="ri-arrow-right-line"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact us section -->
+
+    <div id="contact-us-section">
+      <div class="contact-header">
+        <div class="contact-heading">
+          <h1>Would Like To Start Your Project With Us</h1>
+        </div>
+        <div class="contact-btn">
+          <button type="button" class="contact">Get in Touch</button>
+        </div>
+      </div>
+
+      <div class="contact-info">
+        <div class="logo">
+          <h3>Landing.</h3>
+        </div>
+
+        <div class="our-contact">
+          <h4>Our Contact</h4>
+          <p>$02, St.Street. NY City</p>
+          <p>+91 9834233456</p>
+          <p>landingpage@gmail.com</p>
+        </div>
+
+        <div class="more-info-about">
+          <h4>About Us</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque fuga rem mollitia totam corrupti nostrum ducimus iure libero modi eius.</p>
+        </div>
+
+        <div class="subscribe-section">
+          <h4>Subscribe</h4>
+          <span><input type="text" placeholder="Your Email"><i class="ri-send-plane-2-line"></i></span>
+          <div class="follow-us">
+            <h5>Follow Us</h5>
+            <div class="social-links">
+              <a href="#"><i class="ri-facebook-box-line"></i></a>
+              <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright-section">
+      <p>Copyright © 2024 Landing. All rights reserved.</p>
+    </div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>
