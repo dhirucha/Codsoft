@@ -10,7 +10,7 @@ body {
   font-style: normal;
 }
 
-/* Navbar */
+/******************* Navbar *****************************/
 
 nav {
   display: flex;
@@ -68,7 +68,12 @@ img {
   transform: translateY(6px);
 }
 
-/* hero section */
+
+
+
+
+
+/******************** hero section ************************/
 
 .hero-section {
   width: 100vw;
@@ -126,6 +131,12 @@ img {
   box-shadow: 4px 4px 10px 2px rgba(231, 228, 228, 0.262);
   transform: translateY(6px);
 }
+
+
+
+
+
+/************************* about us section **********************/
 
 #about-us {
   margin-top: 1.8rem;
@@ -215,6 +226,13 @@ hr {
   margin-right: 6rem;
 }
 
+
+
+
+
+
+/************************** portfolio section ***************************/
+
 #portfolio-header {
   margin-left: 6rem;
   margin-right: 6rem;
@@ -289,6 +307,13 @@ hr {
   transform: translateX(8px);
 }
 
+
+
+
+
+
+/*************** client section *********************/
+
 #clients-section {
   margin: 5rem 6rem 2rem 6rem;
 }
@@ -349,6 +374,12 @@ hr {
   margin-top: -8px;
   font-size: 0.5rem;
 }
+
+
+
+
+
+/* ************************** News section ************************/
 
 
 #news-section{
@@ -443,7 +474,7 @@ hr {
 
 }
 
-/* contact us section */
+/************************** contact us section **********************************/
 #contact-us-section{
   height: 100vh;
   
